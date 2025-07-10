@@ -6,7 +6,13 @@ if (!flag) {
   console.log("Condition NOT satisfied");
 }
 
-while(true){
-  console.log("This will run forever");
-  break
+let i = 1;
+while(i>10){
+  i++;
+  console.log(i);
 }
+
+do {
+ i++; 
+} while (i>10);
+console.log(i);
